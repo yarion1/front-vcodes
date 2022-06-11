@@ -6,12 +6,12 @@ import PrivateRoute from "./services/wAuth";
 
 function Rotas() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route path="/" exact component={Login} />
         <PrivateRoute path="/home" exact component={Home} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 export default Rotas;
