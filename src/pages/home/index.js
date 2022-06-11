@@ -97,23 +97,23 @@ export default function Album() {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
+          <Typography variant="h6" color="inherit">
             Vcodes
           </Typography>
-
+         <div style={{width:'100%', height:'100%'}}>
           <Button
             size="small"
             color="secondary"
             button
             onClick={confirmSair}
             style={{
-              marginLeft: "1250px",
               backgroundColor: "red",
               color: "white",
             }}
           >
             Logout
           </Button>
+         </div>
           <Modaladcionar />
         </Toolbar>
       </AppBar>
