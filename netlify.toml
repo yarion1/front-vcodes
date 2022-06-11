@@ -2,6 +2,6 @@
   from = "/"
   to = "/home"
   status = 200
-  force = false
+  force = true
   query = {path = ":path"}
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
