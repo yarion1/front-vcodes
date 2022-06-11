@@ -9,7 +9,7 @@ function Rotas() {
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Login} />
-        <PrivateRoute path="#/home" exact component={Home} />
+        <PrivateRoute path="/#/home" exact component={Home} />
       </Switch>
     </BrowserRouter>
   );
